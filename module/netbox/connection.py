@@ -49,7 +49,7 @@ class NetBoxHandler:
     }
 
     # This tag gets added to all objects create/updated/inherited by this program
-    primary_tag = "NetBox-synced"
+    primary_tag = "pcv-synced"
 
     # all objects which have a primary tag but not present in any source anymore will get this tag assigned
     orphaned_tag = f"{primary_tag}: Orphaned"
